@@ -1,7 +1,3 @@
-module.exports = dummyCheckout;
-
-
-
 var dummyCheckout = {
 
     cartCheckout : function(Moltin,checkoutObj){
@@ -10,6 +6,8 @@ var dummyCheckout = {
 
 };
 
+
+module.exports = dummyCheckout;
 
 
 
